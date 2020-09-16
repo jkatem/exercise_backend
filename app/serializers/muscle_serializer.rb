@@ -1,4 +1,4 @@
 class MuscleSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :legs, :arms_and_abs, :fullbody
 end
