@@ -9,9 +9,9 @@
 Exercise.destroy_all
 Muscle.destroy_all
 
-leg = Muscle.create(legs: "Legs")
-arms_and_abs = Muscle.create(arms_and_abs: "Arms and Abs")
-fullbody = Muscle.create(fullbody: "Full Body")
+leg = Muscle.create(name: "Legs")
+arms_and_abs = Muscle.create(name: "Arms and Abs")
+fullbody = Muscle.create(name: "Full Body")
 
 Exercise.create(name: "Squat", description: "Plant both feet on the floor shoulder-width apart, then bend at both the hips and knees, ensuring that your knees remain in line with your toes. Continue bending your knees until your upper legs are parallel with the floor.", duration: "1 minute", muscle_id: leg.id)
 
