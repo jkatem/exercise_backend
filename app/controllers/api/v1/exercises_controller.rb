@@ -15,7 +15,8 @@ class Api::V1::ExercisesController < ApplicationController
     end
 
     def destroy
-
+        exercise = Exercise.find_by(id: params[:id])
+        exercise.destroy
     end
 
     private

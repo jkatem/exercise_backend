@@ -13,8 +13,12 @@ leg = Muscle.create(name: "Legs")
 arms_and_abs = Muscle.create(name: "Arms and Abs")
 fullbody = Muscle.create(name: "Full Body")
 
-Exercise.create(name: "Squat", description: "Plant both feet on the floor shoulder-width apart, then bend at both the hips and knees, ensuring that your knees remain in line with your toes. Continue bending your knees until your upper legs are parallel with the floor.", duration: "1 minute", muscle_id: leg.id)
+# Exercise.create(name: "Squat", description: "Plant both feet on the floor shoulder-width apart, then bend at both the hips and knees, ensuring that your knees remain in line with your toes. Continue bending your knees until your upper legs are parallel with the floor.", duration: "1 minute", muscle_id: leg.id)
 
-Exercise.create(name: "Tricep Dip", description: "Begin seated on a chair. Place your hands on the edge of the chair under your glutes and directly below your shoulder. Bend your elbows to lower your clutes towareds the mat, ensuring that your shoulders, elbows and wrists remain in line with one another.", duration: "1 minute", muscle_id: arms_and_abs.id)
+# Exercise.create(name: "Tricep Dip", description: "Begin seated on a chair. Place your hands on the edge of the chair under your glutes and directly below your shoulder. Bend your elbows to lower your clutes towareds the mat, ensuring that your shoulders, elbows and wrists remain in line with one another.", duration: "1 minute", muscle_id: arms_and_abs.id)
 
-Exercise.create(name: "Burpee", description: "Place both feet on the mat shoulder0width apart. Bend at the hips and knees to place your hands on the mat on either side of your feet. Jump both of your feet backwards so your legs are completely extended behind you, resting on the balls of your feet. Then jump both feet forwards in between your hands. Then propel your body upwards into the air, extending your legs blow you and your arms above your head. Lastly, land in the starting position.", duration: "1 minute", muscle_id: fullbody.id)
+# Exercise.create(name: "Burpee", description: "Place both feet on the mat shoulder0width apart. Bend at the hips and knees to place your hands on the mat on either side of your feet. Jump both of your feet backwards so your legs are completely extended behind you, resting on the balls of your feet. Then jump both feet forwards in between your hands. Then propel your body upwards into the air, extending your legs blow you and your arms above your head. Lastly, land in the starting position.", duration: "1 minute", muscle_id: fullbody.id)
+
+
+# Mountain Climber
+# Put both hands and knees on the floor. Place your right foot near your right hand and extend your left leg behind you. In one smooth motion, switch your legs, keeping your arms in the same position. Switch your legs back and forth twice, such that your right leg is again close to your right hand.
